@@ -156,7 +156,7 @@
               "postalCode": "5600",
               "addressCountry": "HU"
             },
-            "areaServed": { "@type": "AdministrativeArea", "name": "Békéscsaba" },
+            "areaServed": { "@type": "AdministrativeArea", "name": "Békéscsaba" }
           }
         ]
       }
@@ -697,6 +697,7 @@
         padding: 4rem 2rem;
         text-align: center;
         background: var(--blank);
+        overflow: hidden;
       }
 
       .gallery-section h2 {
@@ -709,8 +710,32 @@
         margin-bottom: 1.5rem;
       }
 
+      .slider-wrapper {
+        display: flex;
+        width: 95%;
+        margin: 0 auto;
+      }
+
       .swiffy-slider img {
         border-radius: 12px;
+      }
+
+      .product-card {
+        background: #fff;
+        border-radius: 12px;
+        overflow: hidden;
+      }
+
+      .img-wrapper {
+        position: relative;
+        width: 100%;
+        aspect-ratio: 1 / 1;
+      }
+
+      .img-wrapper img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
       }
 
       /* -------------- GALLERY END ---------------- */
@@ -1000,35 +1025,75 @@
           <h2>Galéria</h2>
           <p>Pillantson bele szobáink és közösségi tereink hangulatába</p>
         </div>
-        <div
-          class="swiffy-slider slider-indicators-dark slider-nav-dark slider-item-show3 slider-item-reveal slider-item-snapstart slider-nav-autoplay"
-          data-slider-nav-autoplay-interval="4000">
-          <ul class="slider-container">
-            <li><img src="gallery1.jpg" alt="Apartman belső tér" /></li>
-            <li><img src="gallery2.jpg" alt="Szoba részlet" /></li>
-            <li><img src="gallery3.jpg" alt="Közösségi tér" /></li>
-            <li><img src="gallery4.jpg" alt="Fürdőszoba" /></li>
-            <li><img src="gallery5.jpg" alt="Fürdőszoba" /></li>
-            <li><img src="gallery6.jpg" alt="Fürdőszoba" /></li>
-            <li><img src="gallery7.jpg" alt="Fürdőszoba" /></li>
-            <li><img src="gallery8.jpg" alt="Fürdőszoba" /></li>
-            <li><img src="gallery9.jpg" alt="Fürdőszoba" /></li>
-            <li><img src="gallery10.jpg" alt="Fürdőszoba" /></li>
-          </ul>
-          <button type="button" class="slider-nav"></button>
-          <button type="button" class="slider-nav slider-nav-next"></button>
-
-          <div class="slider-indicators">
-            <button class="active"></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
+        <div class="slider-wrapper">
+          <div class="swiffy-slider slider-item-show3 slider-nav-dark slider-nav-outside slider-nav-page">
+            <ul class="slider-container py-4" id="slider2">
+              <li>
+                <div class="product-card">
+                  <div class="img-wrapper">
+                    <img src="gallery1.jpg" loading="lazy" alt="gallery1" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="product-card">
+                  <div class="img-wrapper">
+                    <img src="gallery2.jpg" loading="lazy" alt="gallery2" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="product-card">
+                  <div class="img-wrapper">
+                    <img src="gallery3.jpg" loading="lazy" alt="gallery3" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="product-card">
+                  <div class="img-wrapper">
+                    <img src="gallery4.jpg" loading="lazy" alt="gallery4" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="product-card">
+                  <div class="img-wrapper">
+                    <img src="gallery5.jpg" loading="lazy" alt="gallery5" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="product-card">
+                  <div class="img-wrapper">
+                    <img src="gallery6.jpg" loading="lazy" alt="gallery6" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="product-card">
+                  <div class="img-wrapper">
+                    <img src="gallery7.jpg" loading="lazy" alt="gallery7" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="product-card">
+                  <div class="img-wrapper">
+                    <img src="gallery8.jpg" loading="lazy" alt="gallery8" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="product-card">
+                  <div class="img-wrapper">
+                    <img src="gallery9.jpg" loading="lazy" alt="gallery9" />
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <button type="button" class="slider-nav"></button>
+            <button type="button" class="slider-nav slider-nav-next"></button>
           </div>
         </div>
       </section>

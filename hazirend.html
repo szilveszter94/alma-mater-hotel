@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .hazirend-section {
+      padding: 4rem 2rem;
+      background: #fdfdfd;
+      max-width: 1000px;
+      margin: 0 auto;
+      font-family: "Raleway", sans-serif;
+      color: #222;
+    }
+
+    .hazirend-section h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      color: var(--accent);
+    }
+
+    .hazirend-article {
+      margin-bottom: 2rem;
+      padding: 1.5rem 1rem;
+      border-left: 4px solid var(--accent);
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .hazirend-article h3 {
+      font-size: 1.4rem;
+      margin-bottom: 0.8rem;
+      color: #111;
+    }
+
+    .hazirend-article p {
+      line-height: 1.7;
+      margin-bottom: 0.8rem;
+    }
+
+    /* Optional: responsive */
+    @media (max-width: 768px) {
+      .hazirend-section {
+        padding: 3rem 1rem;
+      }
+      .hazirend-article {
+        padding: 1rem;
+      }
+    }
+
+    /* --- sticky navbar --- */
+    .sticky-nav {
+      position: sticky;
+      display: flex;
+      justify-content: center;
+      top: 0;
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      padding: 1rem 2.5rem;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+      margin: 0 auto;
+      max-width: 900px;
+      border-radius: 12px 12px 0 0;
+    }
+
+    .sticky-nav a {
+      display: inline-block;
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #2f2f2f;
+      font-weight: 500;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      transition:
+        background-color 0.3s,
+        transform 0.2s;
+    }
+
+    .sticky-nav a:hover {
+      background-color: #444444;
+      transform: translateY(-2px);
+    }
+
+    .sticky-nav a:active {
+      background-color: #1f1f1f;
+      transform: translateY(0);
+    }
+
+    .sticky-nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <body>
+    <nav class="sticky-nav">
+      <a href="./#kapcsolat">← Vissza a Főoldalra</a>
+    </nav>
+
+    <main>
+      <section id="hazirend" class="hazirend-section">
+        <h2>Hostel HÁZIREND</h2>
+
+        <div class="hazirend-content">
+          <div class="hazirend-article">
+            <h3>1. § Általános rendelkezések</h3>
+            <p>
+              1. A házirend a Hostelben lakó egyetemi hallgatókra, a különböző jogcímen tartósan és átmenetileg
+              elhelyezettekre kötelezően érvényes.
+            </p>
+            <p>
+              2. A felvételt nyert hallgatók épületen belüli elhelyezését az illetékes GFE Campus Kollégiumi Bizottság
+              dönti el. Cserét indokolt esetén a hallgató kérvényezhet (írásban) a Hostel vezetőjénél. Önkényesen senki
+              sem változtathatja meg az épületen belüli elhelyezését.
+            </p>
+            <p>
+              3. A Hostel férőhelyeinek igénybevételére szóló „bérleti szerződés” 10 hónapra szól (szeptember – június).
+              A bérleti jogviszony minkét fél részéről 60 napos felmondási idővel, a fenti időszak alatt megszüntethető.
+              A hallgató általi felmondás, írásban (indoklással, igazolás bemutatásával) történhet, az egyetem illetékes
+              képviselőjéhez címezve. A hallgató rendkívüli esemény bekövetkezése esetén (pl.: haláleset, hirtelen
+              bekövetkezett rossz anyagi helyzet, stb…) azonnali felmondási kérelemmel fordulhat az illetékes
+              képviselőhöz.
+            </p>
+            <p>
+              4. A Hostel lakói belépőkártyát kapnak, mely a beléptető rendszeren való áthaladást, illetve a kijelölt
+              apartmanba való bejutást biztosítja. A kártyát a biztonsági őr, vagy más jogosult személy felszólítására,
+              fel kell mutatniuk, akár az épületen belül is. A belépőkártya másra át nem ruházható, az elvesztéséből
+              fakadó következmények a hallgatót terhelik. A belépőkártya, sorszámmal ellátott, egyedi azonosításra
+              alkalmas dokumentum.
+            </p>
+            <p>
+              5. Belépőkártya hiányában a hallgatók, a Hostel területére nem léphetnek be. A lakó az egyetemmel kötött
+              szerződés alapján a Hostelben csak a tanulmányi és vizsgaidőszakban lakhat, más időszakban a bentlakás
+              külön rendelkezéshez van kötve.
+            </p>
+            <p>
+              6. A Házirendet és a Szabályzatokat megsértő, a bérlőtársaival, vagy a Hostel bármely dolgozójával
+              szembeni tiszteletlen, vagy durva, illetve a bérlőhöz méltatlan magatartás fegyelmi eljárást von maga után
+              a GFE Fegyelmi Szabályzata szerint.
+            </p>
+            <p>
+              7. Tilos minden olyan tevékenység, amely az ott lakók, és a Hostel környékén lakók nyugalmát bármilyen
+              módon zavarja. A Hostel egész területén csak az általános emberi együttélési normákat és közösségi
+              szellemet nem sértő magatartás, viselkedés engedhető meg. A Hostel területén tilos a különböző
+              hallucinogén és kábító hatású anyagok (kábítószerek) fogyasztása és terjesztése, nyerészkedési céllal
+              szerencsejáték, valamint az olyan magatartás, amely a szobatársakat szobájuk használatában zavarja,
+              illetve a szoba elhagyására kényszeríti!
+            </p>
+            <p>
+              8. A Hostel területén tilos alkoholt árusítani. Az ittas állapotban elkövetett fegyelemsértés azonnali
+              kizárást von maga után. A Hostelben, engedély nélkül, semmilyen árusítási, kereskedelmi, üzleti
+              tevékenység nem folytatható.
+            </p>
+            <p>
+              9. A Hostel, illetve a Campus területén tilos a dohányzás! A dohányzási tilalom megszegése olyan súlyos
+              fegyelmi vétségnek minősül, amely férőhely igénybevételének azonnali felfüggesztését, ún. azonnali hatályú
+              rendkívüli felmondást von maga után. Az automata füst és tűzjelző berendezés a Hostel személyzetének
+              akaratától függetlenül beindulhat. A riasztás leállításának és a helyreállítás költségeit, a füst vagy a
+              tűz okozójának, illetve az érintett szoba lakóinak kell megtérítenie.
+            </p>
+            <p>
+              10. A Hostellel szembeni bármilyen fizetési kötelezettséget a Hostel vezetése által meghatározott módon és
+              időpontban kell teljesíteni. Amennyiben a befizetést, illetve annak igazolását, a lakó a bérleti
+              szerződésben előírt határidőkre elmulasztja, az írásos felszólítást követően, 8 munkanapon belül
+              kiköltözni köteles.
+            </p>
+          </div>
+
+          <div class="hazirend-article">
+            <h3>2. § Vagyonvédelem</h3>
+            <p>
+              1. A bérlő a szoba állapotáért és berendezési tárgyaiért teljes anyagi felelősséggel tartozik. (Kivéve, ha
+              tőle független okokra visszavezethető károsodás történik.) Be- és kiköltözéskor a szobát és berendezési
+              tárgyait át kell venni, illetve át kell adni.
+            </p>
+            <p>
+              2. A bérlő köteles a Hostel épületének állagára vigyázni, a berendezést óvni, azokon engedély nélkül
+              változást nem eszközölhet. A szándékos károkozó magatartás, illetve átalakítás következtében okozott kárt
+              meg kell térítenie. A károkozó magatartás fegyelmi eljárás indítására ad alapot. A kártérítés mértékét
+              minden esetben az üzemeltető határozza meg. Kártérítési és fegyelmi ügyekben csak az egyetem képviselője
+              (kollégiumvezető) járhat el.
+            </p>
+            <p>
+              3. A lakószobában csak olyan önálló díszítés engedélyezett, ami nem tesz kárt a szoba falában és
+              bútorzatában, valamint nem ellenkezik a jó ízléssel. Minden egyéb dekoráció tilos!
+            </p>
+            <p>
+              4. Leltári tárgyakat a szobából kivinni, más helyiségből közös területekről berendezési tárgyakat a
+              szobába bevinni tilos. A szobába bevitt (TV Hifi torony, számítógép stb.) saját tulajdonú, nagy értékű
+              eszközöket, berendezéseket a recepciónak be kell jelenteni, gyári számát le kell adni. Kivitelkor
+              ugyancsak a recepció ad kiviteli engedélyt. A Hostel, a szobákban elhelyezett nagy értékű eszközökért,
+              berendezésekért, valamint más személyes értéktárgyakért, felelősséggel nem tartozik.
+            </p>
+            <p>5. A Hostel tulajdonába lévő tárgyakat és eszközöket az épületből kivinni tilos.</p>
+            <p>
+              6. Műszaki hiba bejelentése a recepción történik, az erre a célra rendszeresített hibabejelentő füzet
+              segítségével. A műszaki hiba megszüntetéséről az üzemeltető haladéktalanul gondoskodik.
+            </p>
+            <p>
+              7. A gondatlanság, vagy szándékosság következtében keletkezett károk megtérítésére vonatkozóan, ha az
+              intézmény és a károkozó nem tud megegyezni, a Ptk. rendelkezései az irányadóak.
+            </p>
+            <p>
+              8. A szobájához minden bérlő külön mágneskártyával rendelkezik, amellyel „kiköltözéskor” köteles
+              elszámolni. A kártya másra át nem ruházható. Elvesztéséből fakadó következmények (anyagi, fegyelmi,
+              vagyonvédelmi stb.) a bérlőt terhelik. Az elvesztett vagy megrongált mágneskártya pótlására a bérlő
+              köteles 3000,-Ft kártérítési díjat fizetni.
+            </p>
+            <p>
+              9. A bérlő köteles a szemetet a szobájából naponta megfelelően zárt csomagolásban kivinni (úgy, hogy azzal
+              a közös használati területeket nem szennyezi) és azt a kijelölt gyűjtőhelyre elhelyezni.
+            </p>
+          </div>
+
+          <div class="hazirend-article">
+            <h3>3. § Látogatók és vendégek fogadásának rendje</h3>
+            <p>
+              1. A Házirend ésszerű életritmushoz és a tanulmányi munka zavartalan végzéséhez igazodik. Ezért 23,00
+              órától 7,00 óráig terjedően a pihenéshez, az alváshoz szükséges nyugalmat, vizsgaidőszakban a tanuláshoz
+              szükséges csendet egész nap biztosítani kell. Így az emeleteken a szorgalmi időszakban 23,00 óra után,
+              vizsgaidőszakban egész nap tilos minden hangoskodás! A Hostelben tartózkodó szállóvendégek minden nemű
+              zavarása szigorúan tilos! A hostel előtti pihenőhelyen tartózkodók - különösen az esti-éjszakai órákban -
+              kötelesek fokozottan figyelni arra, hogy a hostelben tartózkodókat tevékenységükkel ne zavarják.
+            </p>
+            <p>
+              2. A Hostel közösségi, erkölcsi és anyagi biztonsága érdekében a nem a Hostelben lakó személyek – vendégek
+              és látogatók – az épületbe való bejövetele, illetve behozása ellenőrzés alá esik. A vendégek, látogatók –
+              az erre a célra rendszeresített kártyával léphetnek az épületbe – abban az esetben, ha a vendégfogadó is
+              az épületben tartózkodik, és teljes anyagi és erkölcsi felelősséget vállal a vendégéért. Az idegen
+              személyek 7,00 – 2 23,00 óra között tartózkodhatnak az épületben. Az olyan vendégeket és látogatókat, akik
+              a Hostel Házirendjét megsértik, a kollégium vezetője a Hostelből meghatározott időre, vagy véglegesen
+              kitilthatja. Az éjszakai vendégfogadáshoz (bent alvás esetén) a szobatárs beleegyezése szükséges.
+            </p>
+            <p>
+              3. A Hostel lakója, ha látogatót, vagy vendéget fogad, belépőkártyáját és a vendég, látogató személyét
+              hitelesen igazoló dokumentumát (hallgatói jogviszonnyal rendelkezők esetén diákigazolvány) átadja a
+              recepciónak. A recepció az iratok átvétele után kiadja a belépési engedélyt, a vendégkártyát. A látogatás
+              végén, a leadott igazolványok a recepción kérhetők vissza, illetve a vendégkártyát ekkor kell visszaadni.
+            </p>
+            <p>
+              4. Vendégeknek a Hostel korlátozott számban, előzetes bejelentkezés mellett tud vendégszobát biztosítani.
+            </p>
+            <p>
+              5. Abban az esetben, ha nincs üres apartman, a hallgatói férőhelyre a vendég elhelyezhető, amennyiben a
+              szobatárs belegyezését adta, a vendéget fogadó a szükséges iratot (vendégfogadási nyilatkozatot)
+              kitöltötte, a Hostel vezetőjével engedélyeztette, valamint a térítési díjat megfizette. Az
+              engedélyeztetést, a tervezett vendégfogadás előtt 1 munkanappal szükséges kezdeményezni.
+            </p>
+            <p>6. A Hostelben folyamatos, 24 órás nyitva tartású recepció működik.</p>
+            <p>7. Rendezvényeket a Hostel épületében 22,00 óráig be kell fejezni.</p>
+            <p>
+              8. A zárak engedély nélküli cseréje, javítása, mágneskártya, belépőkártya sokszorosítása súlyos fegyelmi
+              vétség, azonnali kizárást von maga után.
+            </p>
+            <p>
+              9. A bérlői jogviszonnyal járó jogok másra nem ruházhatóak át, jelenti az a kapott szolgáltatások egészét.
+              Az ezzel való visszaélés, a bérlői jogviszony azonnali megszüntetését vonja maga után.
+            </p>
+          </div>
+
+          <div class="hazirend-article">
+            <h3>4. § Egyebek</h3>
+            <p>
+              1. A Hostel vezetője az igénylőkkel és a bérlőkkel szemben vétójoggal, úgynevezett kifogással élhet, ha
+              olyan személyről van szó, aki korábban fegyelmi vétséget követett el, illetve aki nem kívánatos a
+              Hostelben.
+            </p>
+            <p>
+              2. A bérlői jogviszony megszűnése után a bérlőnek a lakószobát a Hostel által kijelölt személynek át kell
+              adnia.
+            </p>
+            <p>
+              3. Hirdetményeket csak a kijelölt helyekre (hirdetőtáblára) szabad kifüggeszteni. Külső hirdetések
+              kifüggesztését, szórólapok, plakátok kihelyezését a Hostel vezetője engedélyezheti, amennyiben az
+              intézmény érdekeit nem sérti. Engedély nélküli kifüggesztés esetén a hirdetményt eltávolítjuk.
+            </p>
+            <p>
+              4. Az egyetem hallgatói saját ágyneműhuzatokat használnak, melynek tisztítását önállóan kell megoldani.
+              Vendégek esetén, mosatási díj ellenében ágyneműt biztosítunk. Aki az ágyneműt nem megfelelő állapotban
+              adja vissza, annak az ágynemű értékének megfelelő díjat kell fizetnie, amelyet a használhatatlan ágynemű
+              pótlására fordítunk.
+            </p>
+            <p>
+              5. A Hostel személyzete a rendszeresen ismétlődő szolgáltatásokat (takarítás, lakóegységek
+              használati-műszaki felügyelete, tervszerű karbantartás) részletes ütemterv szerint végzi, mely minden
+              lakószinten a lakók tájékoztatására kifüggesztésre kerül. A lakók az ütemtervben meghatározott időpontra
+              kötelesek a lakóegységet az esedékes munkavégzésre alkalmas állapotba hozni, személyes tárgyaikat a
+              szekrényükbe, a konyhai eszközöket a konyhaszekrénybe helyezni és lezárni. Ez különösen vonatkozik a
+              takarítás feltételeinek biztosítására. A Hostel személyzete jogosult megtagadni a szolgáltatást azzal a
+              lakóval szemben, illetve abban a lakóegységben, ahol a lakónak felróható okból a szolgáltatás feltételei
+              nem állnak rendelkezésre, vagy azt méltánytalan körülmények között kellene teljesíteni.
+            </p>
+            <p>
+              6. A Hostel recepciójában szolgálatban lévő személy, az üzemben tartó képviselője, valamint a Campus
+              Kollégiumi Bizottság egy tagja szobaellenőrzéseket végezhetnek, a házirend betartásának ellenőrzésére
+              jogosultak.
+            </p>
+            <p>
+              7. Amennyiben a hallgató a Hostel területén szokatlan dolgokat észlel (lopás, idegen személy, baleset)
+              köteles azonnal jelenteni a recepción.
+            </p>
+            <p>
+              8. A bérlő köteles áttanulmányozni és betartani a Gál Ferenc Egyetem Hosteljének Házirendjét és egyéb
+              szabályzatait. A szabályzatok nem ismerete nem mentesít a felelősségre vonás alól!
+            </p>
+            <p>9. A bentlakás azonnali felfüggesztését maga után vonó vétségek:</p>
+            <ul>
+              <li>Szándékos károkozás és a Házirend megsértése.</li>
+              <li>Illegális vendég és látogató fogadása.</li>
+              <li>Baleseti és tűzrendészeti szabályzat megsértése.</li>
+              <li>Bárminemű lopás, személyi, vagy intézményi vagyon eltulajdonítása, rongálása.</li>
+              <li>Telefonnal, internettel eltulajdonítás, átalakítás.</li>
+              <li>Illegális vendég és látogató fogadása, valamint állatok bevitele és tartása.</li>
+              <li>
+                Fájlletöltő hálózatok, valamint torrent oldalak használata – ezen oldalakról való le és feltöltés.
+              </li>
+              <li>
+                Saját testi épség szándékos veszélyeztetése, vagy baleset okozása. – A lakóegység ellenőrzésének
+                szándékos akadályozása.
+              </li>
+              <li>A lakóegység ellenőrzésének szándékos akadályozása.</li>
+              <li>Mágneskártyával, belépőkártyával való visszaélés.</li>
+              <li>A lakóegység nem rendeltetésszerű használata.</li>
+            </ul>
+            <p>
+              A Házirend betartása mindenkinek kötelező, melynek megsértése eljárást von maga után. Az eljárás függ
+              attól, hogy azonnali hatályú felmondási ok következett-e be, vagy kisebb horderejű vétség, amely csak
+              figyelmeztető jellegű. A vétségek kivizsgálását és megoldását 3 tagú Vizsgáló Bizottság végzi, melynek
+              elnöke a Hostel referense, 1 fő a Campus Kollégiumi Bizottság titkára, 1 fő a kari Hallgatói Önkormányzat
+              delegáltja. Fegyelmi eljárás esetén irányadó az egyetem Fegyelmi Szabályzata.
+            </p>
+            <p>Békéscsaba, 2025. január 1.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
